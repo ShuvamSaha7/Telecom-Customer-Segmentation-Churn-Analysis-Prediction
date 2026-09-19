@@ -1,0 +1,154 @@
+
+============================================================
+       TELECOM CUSTOMER CHURN BUSINESS ANALYSIS
+============================================================
+
+
+1. OVERALL CHURN
+----------------
+
+Total Customers  : 7,043
+Churned Customers: 1,869
+Churn Rate       : 26.54%
+
+Business Interpretation:
+The company has an observed churn rate of 26.54%.
+Customer retention should therefore be monitored, especially
+among high-risk customer segments.
+
+
+2. CONTRACT ANALYSIS
+--------------------
+
+Highest Churn Contract:
+Month-to-month (42.71%)
+
+Business Interpretation:
+Month-to-month customers have the highest observed churn
+rate. The company can investigate suitable incentives,
+pricing, and benefits for longer-term contracts.
+
+
+3. TENURE ANALYSIS
+------------------
+
+Average Tenure - Retained Customers:
+37.57 months
+
+Average Tenure - Churned Customers:
+17.98 months
+
+Business Interpretation:
+Churned customers have lower average tenure than retained
+customers. This suggests that newer customers may require
+stronger onboarding and early-stage engagement.
+
+
+4. MONTHLY CHARGES
+------------------
+
+Average Monthly Charges - Retained:
+61.27
+
+Average Monthly Charges - Churned:
+74.44
+
+Business Interpretation:
+Churned customers have higher average monthly charges.
+The company should review pricing and perceived value for
+customers with higher monthly charges.
+
+
+5. INTERNET SERVICE ANALYSIS
+----------------------------
+
+Highest Churn Internet Service:
+Fiber optic (41.89%)
+
+Business Interpretation:
+Fiber optic customers show the highest observed churn
+rate among internet-service groups. The company should
+investigate service quality, pricing, network performance,
+and customer-support issues within this segment.
+
+
+6. PAYMENT METHOD
+------------------
+
+Highest Churn Payment Method:
+Electronic check (45.29%)
+
+Business Interpretation:
+Customers using Electronic check show the highest observed
+churn rate among payment methods. The company should
+investigate payment friction and encourage convenient
+automatic payment options.
+
+
+7. TECH SUPPORT ANALYSIS
+------------------------
+
+Highest Churn Tech Support Group:
+No (41.64%)
+
+Business Interpretation:
+Customers in the 'No' Tech Support group show
+the highest observed churn rate. The company should
+investigate customer-support quality and service issues
+within this segment.
+
+
+8. CLTV ANALYSIS
+----------------
+
+Average CLTV - Retained Customers:
+4490.92
+
+Average CLTV - Churned Customers:
+4149.41
+
+Business Interpretation:
+Retained customers have a higher average CLTV than churned
+customers in this dataset. CLTV can be combined with churn
+probability to prioritize valuable customers for retention.
+
+
+9. FINAL BUSINESS RECOMMENDATIONS
+----------------------------------
+
+• Improve onboarding for new customers.
+
+• Investigate month-to-month contract customers.
+
+• Review pricing and perceived value for customers with
+  high monthly charges.
+
+• Investigate service quality among high-churn internet
+  service segments.
+
+• Investigate payment friction and encourage convenient
+  automatic payment methods.
+
+• Improve customer-support quality and monitor support-related
+  customer issues.
+
+• Monitor high-risk customer segments.
+
+• Use CLTV together with predicted churn probability to
+  prioritize retention campaigns.
+
+
+IMPORTANT NOTE
+--------------
+
+These findings show associations observed in the dataset.
+They do not prove that any individual factor directly causes
+customer churn.
+
+CLTV was retained for business analysis and was not used as
+an ML prediction feature.
+
+
+============================================================
+                    END OF REPORT
+============================================================
